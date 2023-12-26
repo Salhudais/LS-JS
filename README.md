@@ -1,5 +1,9 @@
 # Learning Git
 
+##Table of contents
+
+- example_file.txt
+
 Git Workflow:
 1. Initialize Rep with git init
 2. Create Chnages to project files
