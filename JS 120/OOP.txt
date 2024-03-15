@@ -1,0 +1,43 @@
+OOP:
+OOP is a programming paradigm in which we think about a 
+problem in terms of objects. The idea is to model a
+program based on how objects interact in the real world.
+Real world objects have states or properties such as color,
+fuel type, etc. They has have behavior, such as starting,
+driving, and steering.
+
+Why approach the code this way? With complex programs,
+organizing the code becomes ever more difficult. OOP 
+allows programmers to think at a higher level abstraction
+by reducing program specifications to a set of objects.
+In addition to readability, large programs can be a challenge
+to maintain due to dependencies throughout the program. OOP
+lets programmers write programs in a manner to reduce those
+dependencies and make maintenances easier. Since objects
+are treated as separate entities, changing one object does
+not affect the other. 
+
+In terms of efficiency, OOP isn't always the best as OOP
+rpgorams can require more memory, disk space and computing
+power. The advantages of OOP however, outweigh these concerns.
+
+Encapsulation:
+Bundling state(data) and behaviors(operations) to form an object
+assuming that it's relevant, is called encapsulation. Think of
+a banking application with users, accounts, etc. It makes sense
+to combine the data and the functionality into a single entity
+such that users are separate from say, their accounts where a 
+user has a set of predefined behaviors, alongside accounts.
+
+There's a broader meaning to encapsulation, which is to restrict access
+to the state and behaviors such that an object exposes only parts
+other applications need to work with, and nothing else. Other objects 
+can interact with one another via public interface, hiding the implementation
+details as a result. 
+
+
+Collaboraor Objects:
+Objects that help provide state within 
+another object are called collaborator
+objects. TLDR: collaborator objects help
+chop up and modularize the problem domain.
